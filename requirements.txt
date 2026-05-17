@@ -1,0 +1,21 @@
+torch>=2.0.0
+transformers>=4.36.0
+peft>=0.7.0
+datasets>=2.14.0
+accelerate>=0.24.0
+bitsandbytes>=0.41.0
+sentencepiece>=0.1.99
+protobuf>=3.20.0
+rouge-score>=0.1.2
+openai>=1.0.0
+numpy>=1.24.0
+scipy>=1.10.0
+scikit-learn>=1.2.0
+tqdm>=4.65.0
+# Bayesian Optimization (optional, for search stage)
+botorch>=0.9.0
+gpytorch>=1.11.0
+# ConfigSpace (optional, for search space)
+ConfigSpace>=0.7.0
+# Adapters (optional, for adapter-based models)
+adapters>=0.2.0
